@@ -51,6 +51,10 @@ button {
     background-color: #E5E7EB;
 }
 
+.white-border {
+    border: 2px solid white;
+}
+
 .header {
     /* background-color: #1F2937; */
     display: flex;
@@ -75,7 +79,7 @@ button {
 
 .box1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -115,10 +119,19 @@ button {
 
 .box3-p {
     max-width: 550px;
-    font-size: 28px;
+    font-size: 24px;
     font-style: italic;
     font-weight: 50;
     color: #1F2937;
+    text-align: left;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+
 }
 
 .card {
@@ -132,6 +145,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .box4-inner {
@@ -139,12 +154,20 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
-    /* gap: 50px;
-    padding: 8px 20px 8px 20px; */
+    border-radius: 6px;
+    gap: 50px;
+    padding: 20px 80px 20px 80px;
 }
-/* 
+
 .box4-inner2 {
-    display: flex;
-    flex-direction: column;
-} */
+    font-size: 15px;
+}
+
+.small-margin {
+    margin: 0px;
+}
+
+.bottom-button {
+    width: 120px;
+    height: 20;
+}
